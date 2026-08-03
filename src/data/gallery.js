@@ -18,17 +18,14 @@ const photoTitles = [
   'Art & Expression Workshop',
   'Volunteer Appreciation Night',
   'Neighborhood Clean-Up Day',
-  'Financial Literacy Class',
-  'International Women\'s Day',
-  'Community Potluck Dinner',
 ]
 
 export const galleryPhotos = photoTitles.map((title, index) => ({
   id: `photo-${index + 1}`,
   type: 'photo',
   title,
-  src: `/images/placeholders/gallery-${index + 1}.svg`,
-  thumbnail: `/images/placeholders/gallery-${index + 1}-thumb.svg`,
+  src: `/images/placeholders/gallery${index + 1}.jpeg`,
+  thumbnail: `/images/placeholders/gallery${index + 1}.jpeg`,
   width: 1200,
   height: index % 3 === 0 ? 900 : index % 3 === 1 ? 1500 : 1200,
 }))

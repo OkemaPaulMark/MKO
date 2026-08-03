@@ -14,7 +14,7 @@ export default function AboutPreview() {
         />
 
         <div className="mx-auto mt-14 grid max-w-4xl grid-cols-1 gap-8 sm:grid-cols-2">
-          <div className="rounded-card border border-border bg-background-light p-8">
+          <div className="rounded-card border border-border bg-background-light p-8 sm:p-10">
             <h3 className="font-heading text-xl font-semibold text-primary">Our Mission</h3>
             <p className="mt-3 text-sm text-text-muted">{mission.intro}</p>
             <ul className="mt-3 space-y-1.5">
@@ -26,7 +26,7 @@ export default function AboutPreview() {
               ))}
             </ul>
           </div>
-          <div className="rounded-card border border-border bg-background-light p-8">
+          <div className="rounded-card border border-border bg-background-light p-8 sm:p-10">
             <h3 className="font-heading text-xl font-semibold text-primary">Our Vision</h3>
             <p className="mt-3 text-sm text-text-muted">{vision}</p>
           </div>

@@ -24,7 +24,24 @@ From the project root:
 npm install
 ```
 
-## 2. Run the development server
+## 2. Set up contact form email delivery
+
+The contact form sends submissions straight to an inbox via [Web3Forms](https://web3forms.com) — no backend required.
+
+1. Go to [web3forms.com](https://web3forms.com) and enter the email address that should receive contact form messages. No account or password needed — they'll email you an access key instantly.
+2. Copy `.env.example` to `.env`:
+   ```bash
+   cp .env.example .env
+   ```
+3. Paste your access key into `.env`:
+   ```
+   VITE_WEB3FORMS_ACCESS_KEY=your-access-key-here
+   ```
+4. Restart the dev server if it's already running, so Vite picks up the new environment variable.
+
+`.env` is gitignored — each environment (your machine, staging, production) sets its own key.
+
+## 3. Run the development server
 
 ```bash
 npm run dev
@@ -38,7 +55,7 @@ http://localhost:5173/
 
 Open that URL in your browser. The page updates automatically as you edit files.
 
-## 3. Build for production
+## 4. Build for production
 
 ```bash
 npm run build
@@ -46,7 +63,7 @@ npm run build
 
 This bundles and optimizes the app into the `dist/` folder — minified JS/CSS, code-split by route, ready to deploy.
 
-## 4. Preview the production build locally
+## 5. Preview the production build locally
 
 ```bash
 npm run preview
@@ -54,7 +71,7 @@ npm run preview
 
 Serves the contents of `dist/` locally so you can sanity-check the production build before deploying.
 
-## 5. Lint the code
+## 6. Lint the code
 
 ```bash
 npm run lint
@@ -89,7 +106,7 @@ Organization details (address, phone, email, social links, mission, vision, valu
 
 ## Connecting the backend
 
-The contact form currently posts through `src/services/api.js`. Once the Django REST Framework backend is available, point the Axios base URL there — no other frontend code needs to change.
+The contact form currently sends through Web3Forms (see step 2 above), wired up in `src/services/api.js`. Once a Django REST Framework backend exists, `submitContactForm` in that file can be swapped to POST to `/api/contact/` instead — `ContactForm.jsx` doesn't need any changes, since it just calls `submitContactForm(...)`.
 
 ## Deploying
 

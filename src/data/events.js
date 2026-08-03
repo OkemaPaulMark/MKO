@@ -2,7 +2,7 @@
 export const events = [
   {
     id: 'spring-leadership-summit',
-    image: '/images/placeholders/event-1.svg',
+    image: '/images/placeholders/gallery1.jpeg',
     date: '2026-03-14',
     title: 'Spring Leadership Summit',
     excerpt:
@@ -10,7 +10,7 @@ export const events = [
   },
   {
     id: 'youth-mentorship-day',
-    image: '/images/placeholders/event-2.svg',
+    image: '/images/placeholders/gallery5.jpeg',
     date: '2026-04-22',
     title: 'Youth Mentorship Day',
     excerpt:
@@ -18,7 +18,7 @@ export const events = [
   },
   {
     id: 'community-integration-fair',
-    image: '/images/placeholders/event-3.svg',
+    image: '/images/placeholders/gallery9.jpeg',
     date: '2026-05-10',
     title: 'Community Integration Fair',
     excerpt:
@@ -26,7 +26,7 @@ export const events = [
   },
   {
     id: 'volunteer-appreciation-evening',
-    image: '/images/placeholders/event-4.svg',
+    image: '/images/placeholders/gallery13.jpeg',
     date: '2026-06-05',
     title: 'Volunteer Appreciation Evening',
     excerpt:

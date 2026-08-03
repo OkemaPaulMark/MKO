@@ -27,31 +27,29 @@ export default function About() {
         subtitle="Targeted Women's Organization (MKO) is a non-profit based in Kristinehamn, Värmland County, Sweden, dedicated to women, girls, youth, and immigrant families."
       />
 
-      <section className="py-16">
+      <section className="py-20 sm:py-24">
         <div className="container-page">
           <p className="mx-auto max-w-2xl text-center font-heading text-lg italic text-primary sm:text-xl">
             &ldquo;{siteConfig.motto}&rdquo;
           </p>
-        </div>
-      </section>
 
-      <section className="py-4 sm:py-8">
-        <div className="container-page grid grid-cols-1 gap-10 lg:grid-cols-2">
-          <div className="rounded-card border border-border bg-background-light p-8 sm:p-10">
-            <h2 className="font-heading text-2xl font-bold text-primary">Our Mission</h2>
-            <p className="mt-4 text-base text-text-muted">{mission.intro}</p>
-            <ul className="mt-4 space-y-2">
-              {mission.points.map((point) => (
-                <li key={point} className="flex items-start gap-2 text-sm text-text-muted">
-                  <span className="mt-2 h-1 w-1 shrink-0 rounded-full bg-gold" aria-hidden="true" />
-                  {point}
-                </li>
-              ))}
-            </ul>
-          </div>
-          <div className="rounded-card border border-border bg-background-light p-8 sm:p-10">
-            <h2 className="font-heading text-2xl font-bold text-primary">Our Vision</h2>
-            <p className="mt-4 text-base text-text-muted">{vision}</p>
+          <div className="mx-auto mt-14 grid grid-cols-1 gap-10 lg:grid-cols-2">
+            <div className="rounded-card border border-border bg-background-light p-8 sm:p-10">
+              <h2 className="font-heading text-2xl font-bold text-primary">Our Mission</h2>
+              <p className="mt-4 text-base text-text-muted">{mission.intro}</p>
+              <ul className="mt-4 space-y-2">
+                {mission.points.map((point) => (
+                  <li key={point} className="flex items-start gap-2 text-sm text-text-muted">
+                    <span className="mt-2 h-1 w-1 shrink-0 rounded-full bg-gold" aria-hidden="true" />
+                    {point}
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div className="rounded-card border border-border bg-background-light p-8 sm:p-10">
+              <h2 className="font-heading text-2xl font-bold text-primary">Our Vision</h2>
+              <p className="mt-4 text-base text-text-muted">{vision}</p>
+            </div>
           </div>
         </div>
       </section>

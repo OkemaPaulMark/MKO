@@ -103,7 +103,7 @@ export default function ContactSection({ showMap = true }) {
         )}
       </div>
 
-      <div className="rounded-card border border-border bg-white p-6 shadow-soft sm:p-8">
+      <div className="rounded-card border border-border bg-white p-8 shadow-soft sm:p-10">
         <h2 className="font-heading text-2xl font-bold text-text">Send Us a Message</h2>
         <p className="mt-2 text-sm text-text-muted">
           Fill out the form below and our team will get back to you shortly.

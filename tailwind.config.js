@@ -17,10 +17,10 @@ export default {
         gold: '#C4A86C', // Muted Gold — subtle borders/decorative accents only, not for text
         background: {
           DEFAULT: '#FDF8F5', // Warm White — page background
-          light: '#FAD9C9', // Soft Peach — alternating section backgrounds, light cards
+          light: '#F4F1ED', // Warm neutral gray — alternating section backgrounds, light cards
         },
         border: {
-          DEFAULT: '#F0EDEA', // Light Gray — dividers, subtle borders
+          DEFAULT: '#E6E1DB', // Warm neutral gray, one step darker than background-light — dividers, subtle borders
         },
         text: {
           DEFAULT: '#3D3D3D', // Charcoal Gray — body text

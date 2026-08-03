@@ -2,7 +2,7 @@
 export const news = [
   {
     id: 'mko-launches-new-mentorship-track',
-    image: '/images/placeholders/news-1.svg',
+    image: '/images/placeholders/gallery3.jpeg',
     date: '2026-02-18',
     title: 'MKO Launches New Mentorship Track for Young Women',
     summary:
@@ -10,7 +10,7 @@ export const news = [
   },
   {
     id: 'annual-report-2025',
-    image: '/images/placeholders/news-2.svg',
+    image: '/images/placeholders/gallery7.jpeg',
     date: '2026-01-30',
     title: '2025 Annual Impact Report Released',
     summary:
@@ -18,7 +18,7 @@ export const news = [
   },
   {
     id: 'partnership-with-local-schools',
-    image: '/images/placeholders/news-3.svg',
+    image: '/images/placeholders/gallery11.jpeg',
     date: '2026-01-12',
     title: 'New Partnership with Local Schools Announced',
     summary:
