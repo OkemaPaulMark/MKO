@@ -40,14 +40,8 @@ export default function Navbar() {
       </a>
 
       <nav className="container-page flex h-20 items-center justify-between" aria-label="Main navigation">
-        <NavLink to="/" className="flex items-center gap-2 font-heading text-xl font-bold text-primary">
-          <span
-            className="flex h-10 w-10 items-center justify-center rounded-full bg-primary text-white"
-            aria-hidden="true"
-          >
-            M
-          </span>
-          <span>{siteConfig.shortName}</span>
+        <NavLink to="/" className="flex items-center">
+          <img src="/logos/mko_logo.jpeg" alt={siteConfig.shortName} className="h-18 w-auto" />
         </NavLink>
 
         <div className="hidden items-center gap-8 lg:flex">

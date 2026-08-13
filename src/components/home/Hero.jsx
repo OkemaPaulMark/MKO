@@ -23,8 +23,8 @@ export default function Hero() {
             Empowering Women. Inspiring Youth. Building Stronger Communities.
           </h1>
           <p className="mt-6 text-lg text-white/90 sm:text-xl">
-            MKO (Targeted Women&apos;s Organization) supports women, girls, youth, and immigrant families across
-            Sweden through mentorship, education, and community-driven programs.
+            PDW (Purpose Driven Women) supports women, girls, youth, and immigrant families across
+            Sweden through integration, empowerment, and community-driven programs.
           </p>
           <div className="mt-10 flex flex-col gap-4 sm:flex-row">
             <Button to="/about" variant="primary" size="lg">
