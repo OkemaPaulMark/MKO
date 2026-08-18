@@ -27,14 +27,35 @@ export const siteConfig = {
   mapEmbedUrl: 'https://www.google.com/maps?q=Kristinehamn,Sweden&output=embed',
 }
 
-// TODO(content): replace with the real Executive Director's name, photo, and message
 export const director = {
-  name: 'Director\'s Name',
-  title: 'Executive Director, MKO',
+  name: 'Connie Erlandsson',
+  title: 'Founder & Chairperson, MKO',
   photo: '/images/placeholders/director.svg',
   message:
     'When I think about why MKO exists, I think about the women and young people who walk through our doors unsure of what comes next — and who leave knowing their community stands behind them. Every program we run, every volunteer who gives their time, and every partner who joins us is part of a simple belief: that everyone deserves the chance to be seen, supported, and empowered to lead. Thank you for being part of that story with us.',
 }
+
+export const founders = [
+  {
+    name: 'Connie Erlandsson',
+    role: 'Founder & Chairperson',
+    photo: '/images/placeholders/founer.jpeg',
+    bio: 'Our organisation was founded in 2014 in Stockholm, Sweden, by Connie Erlandsson, who identified a growing need for a supportive meeting place for women with foreign backgrounds who were building new lives in Sweden. Having moved from Uganda to Sweden in 2012, Connie experienced many of the challenges that come with settling into a new country, including language barriers, understanding society, accessing information, and finding meaningful connections. Through her own journey, she recognised the importance of creating a safe and welcoming space where women could meet, share experiences, receive guidance, and support one another as they adapted to life in a new environment. With this vision and commitment, Connie began the process of creating an organisation that could serve as a bridge between women from different backgrounds and the wider Swedish community.',
+  },
+  {
+    name: 'Justine Kindbloom',
+    role: 'Co-Founder',
+    photo: '/images/placeholders/co-founder.jpeg',
+    bio: 'As Connie shared her vision and concerns with her close friend Justine Kindbloom, who had already lived in Sweden earlier, Justine saw the importance of the initiative and joined her in bringing the idea to life. Together, they worked towards establishing the organisation and creating opportunities for women to gather, connect, and access support.',
+  },
+]
+
+export const organisationHistory = [
+  'The organisation started with meetings held in different locations, receiving a positive response and growing participation from women who valued the opportunity to come together, learn, and support each other.',
+  'Over the years, the organisation has developed step by step, continuing to promote inclusion, empowerment, integration, and community connection. Although the COVID-19 pandemic created challenges and affected activities for a period of time, the commitment to the organisation\'s purpose remained strong.',
+  'In 2025, the organisation renewed its mobilisation efforts and expanded its activities to Kristinehamn. This new chapter has brought encouraging results, with many women showing interest and actively participating in regular meetings and activities.',
+  'Today, guided by the founding vision of Connie Erlandsson and Justine Kindbloom, the organisation continues to provide a supportive platform where women from diverse backgrounds can connect, grow, and find their place in Swedish society.',
+]
 
 export const navLinks = [
   { label: 'Home', path: '/' },
@@ -118,10 +139,10 @@ export const conclusion = [
 ]
 
 export const statistics = [
-  { label: 'Women Empowered', value: 500, suffix: '+' },
-  { label: 'Youth Supported', value: 300, suffix: '+' },
-  { label: 'Community Events', value: 120, suffix: '+' },
-  { label: 'Volunteers', value: 200, suffix: '+' },
+  { label: 'Women Empowered', value: 1240, suffix: '+' },
+  { label: 'Youth Supported', value: 680, suffix: '+' },
+  { label: 'Community Events', value: 175, suffix: '+' },
+  { label: 'Volunteers', value: 320, suffix: '+' },
 ]
 
 export const whyChooseUs = [

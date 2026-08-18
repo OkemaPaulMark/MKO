@@ -16,7 +16,7 @@ export default function Contact() {
         subtitle="We'd love to hear from you — whether you have a question, want to volunteer, or want to partner with us."
       />
 
-      <section id="volunteer" className="scroll-mt-24 py-20 sm:py-24">
+      <section id="volunteer" className="scroll-mt-24 py-10 sm:py-12">
         <ContactSection />
       </section>
     </>

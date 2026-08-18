@@ -6,7 +6,7 @@ import SectionTitle from '../common/SectionTitle'
 
 export default function Partners() {
   return (
-    <section className="py-20 sm:py-24">
+    <section className="py-10 sm:py-12">
       <div className="container-page">
         <SectionTitle eyebrow="Our Network" title="Partners &amp; Supporters" />
 
@@ -17,7 +17,7 @@ export default function Partners() {
           spaceBetween={48}
           slidesPerView={2}
           breakpoints={{ 640: { slidesPerView: 3 }, 1024: { slidesPerView: 5 } }}
-          className="mt-14"
+          className="mt-7"
           aria-label="Partner organizations"
         >
           {partners.map((partner) => (

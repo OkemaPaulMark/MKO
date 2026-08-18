@@ -1,4 +1,3 @@
-import Button from './Button'
 import Card from './Card'
 
 const dateFormatter = new Intl.DateTimeFormat('en-GB', { day: 'numeric', month: 'short', year: 'numeric' })
@@ -18,9 +17,6 @@ export default function NewsCard({ article }) {
         </time>
         <h3 className="mt-2 text-lg font-semibold text-text">{article.title}</h3>
         <p className="mt-3 flex-1 text-sm text-text-muted">{article.summary}</p>
-        <Button to={`/news#${article.id}`} variant="secondary" size="md" className="mt-6 self-start">
-          Read More
-        </Button>
       </div>
     </Card>
   )

@@ -6,7 +6,7 @@ import { navLinks, siteConfig } from '../../data/siteConfig'
 import { programs } from '../../data/programs'
 
 const socialLinks = [
-  { label: 'Facebook', href: siteConfig.social.facebook, Icon: FaFacebookF },
+  { label: 'Facebook', href: 'https://www.facebook.com/share/p/1L6KeBgKib/', Icon: FaFacebookF },
   { label: 'Instagram', href: siteConfig.social.instagram, Icon: FaInstagram },
   { label: 'LinkedIn', href: siteConfig.social.linkedin, Icon: FaLinkedinIn },
   { label: 'X (Twitter)', href: siteConfig.social.twitter, Icon: FaXTwitter },
@@ -25,13 +25,10 @@ export default function Footer() {
 
   return (
     <footer className="bg-primary-dark text-white">
-      <div className="container-page grid grid-cols-1 gap-10 py-16 sm:grid-cols-2 lg:grid-cols-5">
+      <div className="container-page grid grid-cols-1 gap-5 py-8 sm:grid-cols-2 lg:grid-cols-5">
         <div className="sm:col-span-2 lg:col-span-1">
-          <Link to="/" className="flex items-center gap-2 font-heading text-xl font-bold text-white">
-            <span className="flex h-10 w-10 items-center justify-center rounded-full bg-white text-primary-dark">
-              M
-            </span>
-            <span>{siteConfig.shortName}</span>
+          <Link to="/" className="flex items-center">
+            <img src="/logos/mko_logo.jpeg" alt={siteConfig.shortName} className="h-10 w-auto" />
           </Link>
           <p className="mt-4 text-sm text-white/75">{siteConfig.tagline}</p>
           <div className="mt-6 flex gap-3">

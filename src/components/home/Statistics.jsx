@@ -22,8 +22,8 @@ export default function Statistics() {
   const isInView = useInView(ref, { once: true, margin: '-100px' })
 
   return (
-    <section ref={ref} className="bg-primary-dark py-16 sm:py-20">
-      <div className="container-page grid grid-cols-2 gap-8 lg:grid-cols-4">
+    <section ref={ref} className="bg-primary-dark py-8 sm:py-10">
+      <div className="container-page grid grid-cols-2 gap-4 lg:grid-cols-4">
         {statistics.map((stat) => (
           <StatItem key={stat.label} {...stat} start={isInView} />
         ))}

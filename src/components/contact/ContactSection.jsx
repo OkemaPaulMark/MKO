@@ -4,7 +4,7 @@ import { siteConfig } from '../../data/siteConfig'
 import ContactForm from './ContactForm'
 
 const socialLinks = [
-  { label: 'Facebook', href: siteConfig.social.facebook, Icon: FaFacebookF },
+  { label: 'Facebook', href: 'https://www.facebook.com/share/p/1L6KeBgKib/', Icon: FaFacebookF },
   { label: 'Instagram', href: siteConfig.social.instagram, Icon: FaInstagram },
   { label: 'LinkedIn', href: siteConfig.social.linkedin, Icon: FaLinkedinIn },
   { label: 'X (Twitter)', href: siteConfig.social.twitter, Icon: FaXTwitter },

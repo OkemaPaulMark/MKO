@@ -41,11 +41,11 @@ export default function Gallery() {
         subtitle="Photos and videos from our programs, events, and community gatherings."
       />
 
-      <section className="py-20 sm:py-24">
+      <section className="py-10 sm:py-12">
         <div className="container-page">
           <GalleryFilter active={filter} onChange={setFilter} />
 
-          <div className="mt-12">
+          <div className="mt-6">
             <GalleryGrid items={filteredItems} onPhotoClick={handlePhotoClick} onVideoClick={setActiveVideo} />
           </div>
         </div>

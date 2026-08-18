@@ -17,13 +17,15 @@ export default function Events() {
         subtitle="Join us at an upcoming workshop, mentorship day, or community gathering."
       />
 
-      <section className="py-20 sm:py-24">
-        <div className="container-page grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
-          {events.map((event) => (
-            <div key={event.id} id={event.id} className="scroll-mt-24">
-              <EventCard event={event} />
-            </div>
-          ))}
+      <section className="py-10 sm:py-12">
+        <div className="container-page">
+          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {events.map((event) => (
+              <div key={event.id} id={event.id} className="scroll-mt-24">
+                <EventCard event={event} />
+              </div>
+            ))}
+          </div>
         </div>
       </section>
     </>

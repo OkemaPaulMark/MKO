@@ -4,7 +4,7 @@
  */
 export default function PageHeader({ eyebrow, title, subtitle }) {
   return (
-    <section className="bg-background-light border-b border-border py-16 sm:py-20">
+    <section className="bg-background-light border-b border-border py-8 sm:py-10">
       <div className="container-page text-center">
         {eyebrow && (
           <span className="mb-3 inline-block font-heading text-sm font-semibold uppercase tracking-wide text-primary">
