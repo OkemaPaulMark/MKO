@@ -7,25 +7,26 @@ export default function DirectorMessage() {
       <div className="container-page">
         <SectionTitle
           eyebrow="Our Story"
-          title="History & Founders"
-          subtitle="How MKO came to life and the people behind it."
+          title="History & Founder"
+          subtitle="How MKO came to life and the person behind it."
         />
-        <div className="mt-7 grid grid-cols-1 gap-5 lg:grid-cols-2">
+        <div className="mt-7">
           {founders.map((founder) => (
-            <div key={founder.name} className="rounded-card border border-border bg-white p-4 sm:p-5">
-              <div className="flex items-center gap-5">
-                <img
-                  src={founder.photo ?? '/images/placeholders/director.svg'}
-                  alt={founder.name}
-                  loading="lazy"
-                  className="h-20 w-20 rounded-full object-cover shrink-0"
-                />
-                <div>
-                  <p className="text-xs font-semibold uppercase tracking-widest text-accent">{founder.role}</p>
-                  <h3 className="mt-1 font-heading text-xl font-bold text-primary">{founder.name}</h3>
-                </div>
+            <div
+              key={founder.name}
+              className="flex flex-col items-center gap-8 text-center sm:flex-row sm:items-center sm:gap-10 sm:text-left lg:gap-16"
+            >
+              <img
+                src={founder.photo ?? '/images/placeholders/director.svg'}
+                alt={founder.name}
+                loading="lazy"
+                className="h-40 w-40 shrink-0 rounded-full object-cover sm:h-56 sm:w-56 lg:h-64 lg:w-64"
+              />
+              <div>
+                <p className="text-xs font-semibold uppercase tracking-widest text-accent">{founder.role}</p>
+                <h3 className="mt-1 font-heading text-3xl font-bold text-primary">{founder.name}</h3>
+                <p className="mt-4 text-base text-text-muted sm:text-lg">{founder.bio}</p>
               </div>
-              <p className="mt-6 text-base text-text-muted">{founder.bio}</p>
             </div>
           ))}
         </div>

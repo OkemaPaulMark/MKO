@@ -42,19 +42,13 @@ export const founders = [
     photo: '/images/placeholders/founer.jpeg',
     bio: 'Our organisation was founded in 2014 in Stockholm, Sweden, by Connie Erlandsson, who identified a growing need for a supportive meeting place for women with foreign backgrounds who were building new lives in Sweden. Having moved from Uganda to Sweden in 2012, Connie experienced many of the challenges that come with settling into a new country, including language barriers, understanding society, accessing information, and finding meaningful connections. Through her own journey, she recognised the importance of creating a safe and welcoming space where women could meet, share experiences, receive guidance, and support one another as they adapted to life in a new environment. With this vision and commitment, Connie began the process of creating an organisation that could serve as a bridge between women from different backgrounds and the wider Swedish community.',
   },
-  {
-    name: 'Justine Kindbloom',
-    role: 'Co-Founder',
-    photo: '/images/placeholders/co-founder.jpeg',
-    bio: 'As Connie shared her vision and concerns with her close friend Justine Kindbloom, who had already lived in Sweden earlier, Justine saw the importance of the initiative and joined her in bringing the idea to life. Together, they worked towards establishing the organisation and creating opportunities for women to gather, connect, and access support.',
-  },
 ]
 
 export const organisationHistory = [
   'The organisation started with meetings held in different locations, receiving a positive response and growing participation from women who valued the opportunity to come together, learn, and support each other.',
   'Over the years, the organisation has developed step by step, continuing to promote inclusion, empowerment, integration, and community connection. Although the COVID-19 pandemic created challenges and affected activities for a period of time, the commitment to the organisation\'s purpose remained strong.',
   'In 2025, the organisation renewed its mobilisation efforts and expanded its activities to Kristinehamn. This new chapter has brought encouraging results, with many women showing interest and actively participating in regular meetings and activities.',
-  'Today, guided by the founding vision of Connie Erlandsson and Justine Kindbloom, the organisation continues to provide a supportive platform where women from diverse backgrounds can connect, grow, and find their place in Swedish society.',
+  'Today, guided by the founding vision of Connie Erlandsson, the organisation continues to provide a supportive platform where women from diverse backgrounds can connect, grow, and find their place in Swedish society.',
 ]
 
 export const navLinks = [

@@ -69,7 +69,7 @@ export default function About() {
       <section className="bg-background-light py-10 sm:py-12">
         <div className="container-page">
           <SectionTitle eyebrow="Our Journey" title="How We Grew" />
-          <ol className="mx-auto mt-7 max-w-3xl space-y-6">
+          <ol className="mt-7 grid grid-cols-1 gap-6 lg:grid-cols-2">
             {organisationHistory.map((paragraph, i) => (
               <li key={i} className="flex items-start gap-3">
                 <span className="mt-2 h-2 w-2 shrink-0 rounded-full bg-gold" aria-hidden="true" />

@@ -41,7 +41,7 @@ export default function Navbar() {
 
       <nav className="container-page flex h-20 items-center justify-between" aria-label="Main navigation">
         <NavLink to="/" className="flex items-center">
-          <img src="/logos/mko_logo.jpeg" alt={siteConfig.shortName} className="h-12 w-auto" />
+          <img src="/logos/mko_logo.png" alt={siteConfig.shortName} className="h-20 w-auto" />
         </NavLink>
 
         <div className="hidden items-center gap-8 lg:flex">
