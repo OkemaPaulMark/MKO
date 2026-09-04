@@ -28,7 +28,7 @@ export default function Footer() {
       <div className="container-page grid grid-cols-1 gap-5 py-8 sm:grid-cols-2 lg:grid-cols-5">
         <div className="sm:col-span-2 lg:col-span-1">
           <Link to="/" className="flex items-center">
-            <img src="/logos/mko_logo.jpeg" alt={siteConfig.shortName} className="h-10 w-auto" />
+            <img src="/logos/mko_logo.png" alt={siteConfig.shortName} className="h-10 w-auto" />
           </Link>
           <p className="mt-4 text-sm text-white/75">{siteConfig.tagline}</p>
           <div className="mt-6 flex gap-3">
