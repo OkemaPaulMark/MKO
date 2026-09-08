@@ -2,34 +2,42 @@
 export const testimonials = [
   {
     id: 1,
-    name: 'Amina Yusuf',
-    position: 'Program Graduate, Women\'s Empowerment',
+    name: 'Entessar Strandberg',
+    position: 'Member, MKO',
     photo: '/images/placeholders/testimonial-1.svg',
     story:
-      'MKO gave me the confidence and skills to start my own small business. The mentors believed in me before I believed in myself.',
+      'Being part of this women\'s organization has helped me gain confidence, new friendships, and valuable experiences. I am grateful for this supportive community.',
   },
   {
     id: 2,
-    name: 'Leila Haidari',
-    position: 'Participant, Integration Support',
+    name: 'Gabriela Palao',
+    position: 'Member, MKO',
     photo: '/images/placeholders/testimonial-2.svg',
     story:
-      'When my family arrived in Sweden, MKO helped us find our footing — from language classes to simply knowing we weren\'t alone.',
+      'This organization has helped me grow, connect with inspiring women, and gain new knowledge through our meetings and shared experiences.',
   },
   {
     id: 3,
-    name: 'Fatima Noor',
-    position: 'Youth Development Alumna',
+    name: 'Alice Laryang',
+    position: 'Member, MKO',
     photo: '/images/placeholders/testimonial-3.svg',
     story:
-      'The youth program taught me to speak up, lead group projects, and dream bigger about what my future could look like.',
+      'Through this organization, I have gained confidence, friendship, and inspiration. I appreciate the opportunity to learn and grow together with other women.',
   },
   {
     id: 4,
-    name: 'Sara Ahmadi',
-    position: 'Volunteer & Community Organizer',
+    name: 'Annette Erickson',
+    position: 'Member, MKO',
     photo: '/images/placeholders/testimonial-4.svg',
     story:
-      'Volunteering with MKO connected me with a community of people just as passionate about lifting each other up.',
+      'Being a member has given me encouragement, meaningful connections, and new perspectives. I am thankful for this wonderful women\'s community.',
+  },
+  {
+    id: 5,
+    name: 'Mahoro Furaha',
+    position: 'Member, MKO',
+    photo: '/images/placeholders/testimonial-1.svg',
+    story:
+      'This journey has helped me build friendships, gain knowledge, and feel empowered through the support of other women.',
   },
 ]

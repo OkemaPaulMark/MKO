@@ -1,6 +1,14 @@
 // Placeholder news images live under /src/assets/images — replace with real articles/media.
 export const news = [
   {
+    id: 'integration-lectures-planning-meeting',
+    image: '/images/placeholders/image05.jpeg',
+    date: '2026-09-05',
+    title: 'Planning Meeting Held for Integration Lectures with the Social Welfare Office',
+    summary:
+      "That was today's meeting — discussions on how to organise integration lectures in partnership with the Social Welfare Office.",
+  },
+  {
     id: 'mko-launches-new-mentorship-track',
     image: '/images/placeholders/gallery3.jpeg',
     date: '2026-02-18',

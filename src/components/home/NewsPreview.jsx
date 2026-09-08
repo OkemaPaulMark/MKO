@@ -9,7 +9,7 @@ export default function NewsPreview() {
         <SectionTitle eyebrow="Latest News" title="News &amp; Updates" />
 
         <div className="mt-7 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {news.map((article) => (
+          {news.slice(0, 3).map((article) => (
             <NewsCard key={article.id} article={article} />
           ))}
         </div>

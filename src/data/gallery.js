@@ -20,15 +20,35 @@ const photoTitles = [
   'Neighborhood Clean-Up Day',
 ]
 
-export const galleryPhotos = photoTitles.map((title, index) => ({
-  id: `photo-${index + 1}`,
-  type: 'photo',
-  title,
-  src: `/images/placeholders/gallery${index + 1}.jpeg`,
-  thumbnail: `/images/placeholders/gallery${index + 1}.jpeg`,
-  width: 1200,
-  height: index % 3 === 0 ? 900 : index % 3 === 1 ? 1500 : 1200,
-}))
+export const galleryPhotos = [
+  ...photoTitles.map((title, index) => ({
+    id: `photo-${index + 1}`,
+    type: 'photo',
+    title,
+    src: `/images/placeholders/gallery${index + 1}.jpeg`,
+    thumbnail: `/images/placeholders/gallery${index + 1}.jpeg`,
+    width: 1200,
+    height: index % 3 === 0 ? 900 : index % 3 === 1 ? 1500 : 1200,
+  })),
+  {
+    id: 'photo-18',
+    type: 'photo',
+    title: 'Integration Lecture Planning Meeting',
+    src: '/images/placeholders/image05.jpeg',
+    thumbnail: '/images/placeholders/image05.jpeg',
+    width: 1200,
+    height: 900,
+  },
+  {
+    id: 'photo-19',
+    type: 'photo',
+    title: 'Meeting with the Social Welfare Office',
+    src: '/images/placeholders/image06.jpeg',
+    thumbnail: '/images/placeholders/image06.jpeg',
+    width: 1200,
+    height: 900,
+  },
+]
 
 export const galleryVideos = [
   {
@@ -58,6 +78,13 @@ export const galleryVideos = [
     title: 'Community Integration Fair Highlights',
     src: '/videos/placeholders/integration-fair-highlights.mp4',
     thumbnail: '/images/placeholders/video-4-thumb.svg',
+  },
+  {
+    id: 'video-5',
+    type: 'video',
+    title: 'Integration Lectures Planning Meeting',
+    src: '/videos/placeholders/team-meeting.mp4',
+    thumbnail: '/images/placeholders/image06.jpeg',
   },
 ]
 
